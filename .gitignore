@@ -1,0 +1,53 @@
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+#Virtual environments
+venv/
+.env
+
+
+# LangChain & FAISS
+langchain_cache/
+faiss_index/
+index.faiss
+index.pkl
+
+#Hugging Face / Transformers cache
+~/.cache/huggingface/
+huggingface/
+transformers/
+*.bin
+*.pt
+*.ckpt
+
+#Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# macOS system files
+.DS_Store
+Thumbs.db
+
+# PyMuPDF / SentenceTransformer outputs (optional)
+output/
+pdfs/
+uploads/
+
+#Large data / export files
+*.csv
+*.zip
+*.tar.gz
+*.jsonl
+*.db
+*.sqlite

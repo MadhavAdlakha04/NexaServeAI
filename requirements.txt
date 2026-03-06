@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-openai
+langsmith
+requests
+faiss-cpu
+tiktoken
+python-dotenv
+langchain-huggingface
+PyMuPDF
+sentence-transformers
